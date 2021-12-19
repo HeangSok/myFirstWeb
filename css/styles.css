@@ -62,6 +62,14 @@ h3 {
   line-height: 1.3;
 }
 
+hr {
+  border: 7px dotted var(--color-headings);
+  border-bottom: none;
+  width: 5%;
+  margin: 30px auto 30px auto;
+  color: #fff;
+}
+
 p {
   margin-top: 0;
 }
@@ -504,6 +512,9 @@ a {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
+  .quote__text {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -756,6 +767,7 @@ a {
 .hero__link {
   color: #b9c3cf;
   transition: color 0.2s;
+  font-size: 1.5rem;
 }
 
 .hero__link:hover {
@@ -770,6 +782,10 @@ a {
 
   .hero__image {
     width: 100%;
+  }
+
+  .hero__link {
+    font-size: 2rem;
   }
 }
 
@@ -987,4 +1003,54 @@ a {
 .navigation__button:hover {
   background-color: rgb(196, 191, 191);
   opacity: 0.3;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.heart__color {
+  color: var(--color-accent);
+  font-size: 3rem;
+}
+
+.about__me {
+  padding: 0;
+}
+
+.letter__spacing {
+  letter-spacing: 1px;
+}
+
+.motivation-img {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+.resize__margin__padding {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .code-img {
+    width: 100%;
+    text-align: center;
+  }
+  .motivation-img {
+    width: 100%;
+    text-align: center;
+  }
+  .skill-row {
+    width: 100%;
+    text-align: center;
+  }
 }
