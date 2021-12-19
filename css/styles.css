@@ -747,7 +747,6 @@ a {
   width: 65%;
   height: auto;
   max-width: 45rem;
-  min-width: 35rem;
 }
 
 .hero__img__align {
@@ -959,7 +958,7 @@ a {
   width: 65%;
   height: auto;
   max-width: 45rem;
-  min-width: 35rem;
+  min-width: 20rem;
 }
 
 /* .vertical__align {
@@ -983,4 +982,9 @@ a {
   .profile__footer {
     display: flex;
   }
+}
+
+.navigation__button:hover {
+  background-color: rgb(196, 191, 191);
+  opacity: 0.3;
 }
