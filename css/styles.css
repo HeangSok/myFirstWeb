@@ -1062,3 +1062,8 @@ span.carousel-control-next-icon {
 span.carousel-control-prev-icon {
   filter: invert(100%);
 }
+
+.justify__content {
+  text-align: justify;
+  text-justify: inter-word;
+}
