@@ -651,9 +651,18 @@ a {
   color: #7b858b;
 }
 
+.block--green {
+  background-color: #04aa6d;
+  color: #7b858b;
+}
+
 .block--dark h1,
 .block--dark h2,
-.block--dark h3 {
+.block--dark h3,
+.block--green h1,
+.block--green h2,
+.block--green h3,
+.block--green p {
   color: #fff;
 }
 
@@ -761,11 +770,12 @@ a {
 }
 
 .hero__img__align {
+  padding-top: 2rem;
   text-align: center;
 }
 
 .hero__link {
-  color: #b9c3cf;
+  color: #e0ebfa;
   transition: color 0.2s;
   font-size: 1.5rem;
 }
