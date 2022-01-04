@@ -1077,3 +1077,16 @@ span.carousel-control-prev-icon {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.form input {
+  margin: 2rem auto;
+  margin: 1rem auto;
+}
+
+.hide__button {
+  display: none;
+}
+
+.result {
+  padding-left: 1rem;
+}

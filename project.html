@@ -194,6 +194,39 @@
           <img src="images/swift3.png" alt="" />
         </div>
       </article>
+
+      <!-- project 5 -->
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <h3 class="feature__heading">Number Guessing Game</h3>
+          <p class="justify__content">
+            Please select a number between 1 - 100 in 10 turns or fewer.
+          </p>
+
+          <div class="form">
+            <label for="inputField"> Please Guess: </label>
+            <input type="text" id="inputField" class="inputField" />
+            <input type="submit" value="Submit Answer" class="answerSubmit" />
+          </div>
+
+          <div class="resultSection">
+            <p class="yourGuess"></p>
+            <p class="result"></p>
+            <p class="hiLow"></p>
+          </div>
+
+          <!-- <input
+            type="submit"
+            value="Restart the Game"
+            target="_blank"
+            class="link-arrow hide__button"
+          /> -->
+
+          <a target="_blank" class="link-arrow hide__button"
+            >Restart The Game</a
+          >
+        </div>
+      </article>
     </section>
     <!--  -->
 
@@ -234,5 +267,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="js/guessTheNumber.js"></script>
   </body>
 </html>
