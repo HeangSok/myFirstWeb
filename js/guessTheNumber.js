@@ -57,6 +57,7 @@ function gameOver() {
     showRestartGameButton.style.display = 'block';
     showRestartGameButton.addEventListener('click', restartGame);
 }
+showRestartGameButton.addEventListener('click', restartGame);
 
 function restartGame() {
     count = 1;
